@@ -1,0 +1,144 @@
+/*Importing fonts for form*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+body {
+    font-size: medium;
+    font-weight: 50%;
+    margin: auto;
+    width: 75%;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    padding-bottom: 20px;
+    color: black;
+    margin: 0 0 0 25px;
+}
+
+#header-img {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    size: 0.25em;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    width: 97%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+#nav-bar li {
+    display: inline;
+    width: 100px;
+    margin-right: 15px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    #ul {
+        flex-direction: column;
+    }
+}
+
+h3 {
+    font-style: bold;
+    font-size: 20px;
+}
+
+.section_product {
+    background-color: lightblue;
+    border: lightblue solid 10mm;
+}
+
+.li-product {
+    padding-top: 35px;
+    display: inline-block;
+    width: 100px;
+    margin-right: 15px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.img-product {
+    width: 50px;
+}
+
+.product-list {
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.section_about {
+    background-color: rgb(101, 132, 172);
+    border: rgb(101, 132, 172) solid 10mm;
+}
+
+.section_contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: lightblue;
+    border: lightblue solid 10mm;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.container {
+    padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: #E3F2FD;
+	border-radius: 4px;
+}
+
+label {
+    font-size: 0.85em;
+	margin-left: 12px;
+    padding-right: 90em;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;   
+}
+
+.footer {
+    background-color:black;
+    color: white;
+    border: black solid 10mm;
+}

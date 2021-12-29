@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+
+#title {
+    padding: 50px;
+    background-color: white;
+}
+
+#title h1 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+#title p {
+    font-style: italic;
+}
+
+#img-div {
+    max-width: none;
+    padding: 10px;
+    margin: 0;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    padding-bottom: 15px;
+    font-style: italic;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: justify;
+}
+
+ul li {
+    padding: 10px;
+    display: list-item;
+}
+
+#quote {
+    box-sizing: border-box;
+    font-style: italic;
+    width: auto;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 20px;
+}
+
