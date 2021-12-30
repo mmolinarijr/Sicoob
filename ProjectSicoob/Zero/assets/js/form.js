@@ -5,7 +5,7 @@ let name = id("name"),
     email = id("email"),
     form = id("form"),
 
-    form.addEventListener("submit", (e) => {
+    form.addEventListener("submit"), (e) => {
         e.preventDefault();
       });
 
@@ -18,4 +18,3 @@ let name = id("name"),
 
         }
 
-        

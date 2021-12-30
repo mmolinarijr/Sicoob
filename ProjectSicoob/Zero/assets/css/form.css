@@ -1,44 +1,4 @@
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 400px;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
-    padding: 50px;
-  }
-
-  .title {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-
-  
-  label {
-    display: block;
-    background-color: #1a171762;
-    margin-bottom: 5px;
-  }
-
-  form div input {
-    width: 100%;
-    height: 40px;
-    border-radius: 8px;
-    outline: none;
-    border: 2px solid #c4c4c4;
-    padding: 0 30px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  form div {
-    position: relative;
-    margin-bottom: 15px;
-  }
-  
-  input:focus {
-    border: 2px solid #f2796e;
-  }/**
+/**
 * ! padrao browser
 **/
 
@@ -113,8 +73,23 @@ form {
     }
     
     input:focus {
-      border: 2px solid #f2796e;
+      border: 2px solid #ffffff;
     }
+  
+    button {
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    background-color: #a171762;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+  }
   
   /**
   * ! Rodapé

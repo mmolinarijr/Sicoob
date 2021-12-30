@@ -13,21 +13,24 @@
       crossorigin="anonymous"
     />
     <title>Projeto Sicoob</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/form.css" />
   </head>
 
   <body>
     <h1>
-      Seja Bem vindo!
+      Projeto Sicoob
     </h1>
 
     <section class="container">
-      <h2>Entre em contato</h2>
+      <!--<h2>Entre em contato</h2>-->
 
       <form action="" id="form">
-        <div class="t">Entre em contato</div>
+        <div class="t">
+          <h3>
+            Entre em contato
+          </h3>
+        </div>
 
         <!--Inserir nome completo-->
         <div>
@@ -43,22 +46,23 @@
 
         <!--Inserir email-->
         <div>
-          <label>E-mail:</label> 
+          <label>E-mail</label> 
           <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com.br"/>
         </div>
 
         <!--Inserir mensagem-->
-        <div class="mensagem">
-          <p>Mensagem</p>
-          <textarea placeholder="Digite aqui sua mensagem"></textarea>
+        <div>
+          <p class="msg-titulo">Mensagem</p>
+          <textarea class="textarea" placeholder="Digite aqui sua mensagem" rows="10" cols="60"></textarea>
         </div>
 
-        <button  type="button" id="submit">Enviar</button>
+        <button type="button" id="submit">Enviar</button>
       </form>
     </section>
-
+    
     <footer>All Rights Reserved © Mauricio Molinari - 2021</footer>
     <script src="assets/js/main.js" defer></script>
   </body>
 </html>
+
 
