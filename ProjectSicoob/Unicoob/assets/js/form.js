@@ -13,18 +13,32 @@ form.addEventListener("submit", e => {
   e.preventDefault();
 
   validation(names, 0, "Nome nāo pode ser em branco");
-  validation(email, 0, "Email nāo pode ser em branco");
-  validation(text, 0, "Sua mensagem não pode ser em branco");
+  validation(email, 1, "Email nāo pode ser em branco");
+  validation(text, 2, "Sua mensagem não pode ser em branco");
 });
 
 let validation = (id, serial, message) => {
   //remove espacos em branco
   if (id.value.trim() === "") {
     errorMsg[serial].innerHTML = message;
+    
+    id.style.border = "2px solid red";
+    
+    // icons
+    failureIcon[serial].style.opacity = "1";
+    successIcon[serial].style.opacity = "0";
+    
   } else {
     errorMsg[serial].innerHTML = "";
+    id.style.border = "2px solid green";
+    
+    // icons
+    failureIcon[serial].style.opacity = "0";
+    successIcon[serial].style.opacity = "1";
   }
+  
 };
+
 
 
 

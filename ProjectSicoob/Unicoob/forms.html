@@ -40,23 +40,31 @@
             type="text"
             name="nome"
             placeholder="Digite seu nome completo"
-            required
-          />
+            required/>
+          
           <div class="error"></div>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
         </div>
 
         <!--Inserir email-->
         <div>
           <label>E-mail</label> 
           <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com.br"/>
+         
           <div class="error"></div>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
         </div>
 
         <!--Inserir mensagem-->
         <div>
           <p class="msg-titulo">Mensagem</p>
           <textarea class="textarea" placeholder="Digite aqui sua mensagem" rows="10" cols="60"></textarea>
+
           <div class="error"></div>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
         </div>
 
         <button type="button" id="submit">Enviar</button>
