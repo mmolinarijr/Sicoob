@@ -76,16 +76,25 @@ form {
       border: 2px solid #ffffff;
     }
 
-    form div i {
-      position: absolute;
-      padding-left: 100%;
-      margin-bottom: 10px;
-    }
+    .failure-icon,
+    .error {
+      color: red;
+  }
+
+    .success-icon {
+      color: green;
+  }
     
     .error {
       font-size: 14.5px;
       margin-top: 5px;
     }
+
+    .success-icon,
+    .failure-icon {
+      right: 0;
+      opacity: 0;
+} 
   
     button {
       margin-top: 15px;
@@ -94,7 +103,7 @@ form {
       background-color: #adadb462;
       border: 2px solid #ffffff;
       border-radius: 8px;
-      color: #ffffff;
+      color: #fff;
       font-size: 20px;
       color: grey;
       cursor: pointer;
