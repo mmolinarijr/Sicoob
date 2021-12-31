@@ -1,0 +1,42 @@
+/**
+* ! padrao browser
+**/
+
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  /**
+* ! Titulo
+**/
+h1 {
+    display: flex;
+    
+    justify-content: center;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+.links {
+
+}
+
+
+
+
+  /**
+* ! Rodapé
+**/
+footer {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    padding: 70px;
+  }
