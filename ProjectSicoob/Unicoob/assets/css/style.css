@@ -23,11 +23,24 @@ h1 {
     padding: 20px;
   }
   
-.links {
-
+div{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    margin-right: 20px;
 }
 
+p {
+  padding: 20px;
+}
 
+.game {
+    padding: 20px;
+}
+
+.form {
+    padding: 20px;
+}
 
 
   /**
