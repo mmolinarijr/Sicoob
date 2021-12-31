@@ -9,6 +9,11 @@ html {
     box-shadow: 13px 13px 3px 4px rgba(0, 0, 0, 0.1);
     padding: 100px;
   }
+
+  button {
+      margin: 20px;
+      padding: 10px;
+  }
   
   .ultiResultado {
     color: white;

@@ -37,9 +37,9 @@ function advinhe() {
     ultiResultado.style.backgroundColor = "red";
 
     if (chute < numeroAleatorio) {
-      altoBaixo.textContent = "ultimo chute foi muito baixo";
+      altoBaixo.textContent = "último chute foi muito baixo";
     } else if (chute > numeroAleatorio) {
-      altoBaixo.textContent = "ultimo chute foi muito alto";
+      altoBaixo.textContent = "último chute foi muito alto";
     }
   }
 
