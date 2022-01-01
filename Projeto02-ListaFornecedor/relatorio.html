@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <title>Relatorio</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
         <h1>Relatorio de Fornecedores</h1>
     </div>
 
-    <table id="data"> 
+    <table id="tabela"> 
         <tr> 
          <th>ID</th> 
          <th>Empresa</th> 
@@ -23,14 +24,14 @@
 
         <?php 
             include("assets/php/conn.php"); 
-            $sql="select * from Cadastro"; 
+            $sql="select * from 'Cadastro';"; 
             $query = mysql_query($sql); 
             while ($linha = mysql_fetch_array($query)) { 
                     echo "<tr>"; 
                     echo "<td>$linha[id]</td>"; 
                     echo "<td>$linha[empresa]</td>"; 
                     echo "<td>$linha[nome]</td>"; 
-                    echo "<td>$linha[cpfcnpj</td>"; 
+                    echo "<td>$linha[cpfcnpj]</td>"; 
                     echo "<td>$linha[telefone]</td>"; 
                     echo "<td>$linha[datahora]</td>"; 
                     echo "<td style='text-align:center'>"; 
