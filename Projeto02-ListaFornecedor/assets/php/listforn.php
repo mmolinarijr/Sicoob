@@ -31,7 +31,6 @@
                     echo "<td>$linha[telefone]</td>"; 
                     echo "<td>$linha[datahora]</td>"; 
                     echo "<td style='text-align:center'>"; 
-                    echo "<a href='javascript:delRecord(".$linha['id'].");'>X</a>"; 
                     echo "</td>"; 
                     echo "<td style='text-align:center'>"; 
                     echo "</td>"; 
