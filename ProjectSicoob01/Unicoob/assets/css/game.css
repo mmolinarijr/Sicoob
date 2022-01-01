@@ -1,0 +1,28 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    flex-direction: row;
+    justify-content: right;
+    max-width: 300px;
+    box-shadow: 13px 13px 3px 4px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+  }
+
+  button {
+      margin: 20px;
+      padding: 10px;
+  }
+  
+  .ultiResultado {
+    color: white;
+    padding: 3px;
+  }
+  
+  footer {
+    font-size: 13px;
+    justify-content: center;
+  }
+  
+  

@@ -1,0 +1,55 @@
+/**
+* ! padrao browser
+**/
+
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  /**
+* ! Titulo
+**/
+h1 {
+    display: flex;
+    
+    justify-content: center;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+div{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+p {
+  padding: 20px;
+}
+
+.game {
+    padding: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+
+
+  /**
+* ! Rodapé
+**/
+footer {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    padding: 70px;
+  }

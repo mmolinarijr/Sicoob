@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.me/2ee8fc4a-9555-4d12-98d2-a8672e9a5d6b/FAVICON-SICOOB.ico?v=1640796889325"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <title>Projeto Sicoob</title>
+    <!--<link rel="stylesheet" href="assets/css/reset.css" />-->
+    <link rel="stylesheet" href="assets/css/form.css" />
+  </head>
+
+  <body>
+    <h1>
+      Projeto Sicoob
+    </h1>
+
+    <div class="container">
+      <!--<h2>Entre em contato</h2>-->
+
+      <form id="form">
+        <div class="t">
+          <h3>
+            Entre em contato
+          </h3>
+        </div>
+
+        <!--Inserir nome completo-->
+        <div>
+          <label for="nome">Nome</label>
+          <input
+            id="nome"
+            type="text"
+            name="nome"
+            placeholder="Digite seu nome completo"
+            required/>
+          
+          <div class="error"></div>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+        </div>
+
+        <!--Inserir email-->
+        <div>
+          <label for="email">E-mail</label> 
+          <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com.br"/>
+         
+          <div class="error"></div>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+        </div>
+
+        <!--Inserir mensagem-->
+        <div>
+          <p class="msg-titulo">Mensagem</p>
+          <textarea class="textarea" placeholder="Digite aqui sua mensagem" rows="10" cols="60"></textarea>
+
+          <div class="error"></div>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+        </div>
+
+        <button form="form" type="button" id="submit">Enviar</button>
+      </form>
+    </div>
+    
+    <footer>All Rights Reserved © Mauricio Molinari - 2021</footer>
+  </body>
+  <script src="assets/js/form.js"></script>
+</html>
+
+

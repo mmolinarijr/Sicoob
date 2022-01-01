@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/game.css" />
+    <title>Jogo de advinhar</title>
+  </head>
+  <body>
+    <h1>
+      Jogo de advinhar
+    </h1>
+
+    <section>
+      <p>
+        Tente advinhar o número que o sistema escolheu.
+      </p>
+
+      <ul>
+        <li>Você tem 10 chances pra tentar acertar.</li>
+        <li>O número vai de 0 a 100.</li>
+      </ul>
+    </section>
+
+    <div class="form">
+      <label for="insert_text">Número: </label>
+      <input type="text" id="insert_text" class="insert_text" />
+      <button name="Tentar" type="submit" value="Tentar" class="btn_enviar">
+        Tentar
+      </button>
+      <button type="submit" onclick="window.location.reload();">
+        Começar de novo
+      </button>
+    </div>
+
+    <div class="resultado">
+      <p class="advinhar"></p>
+      <p class="ultiResultado"></p>
+      <p class="altoBaixo"></p>
+    </div>
+
+    <footer>All Rights Reserved © Mauricio Molinari - 2021</footer>
+
+    <script src="assets/js/game.js"></script>
+  </body>
+</html>
+

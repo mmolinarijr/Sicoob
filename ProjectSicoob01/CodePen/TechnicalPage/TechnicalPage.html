@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+          <h1>JS Documentation</h1>
+        </header>
+        <ul>
+          <li>
+            <a class="nav-link" href="#Introduction">Introduction</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Why_Study_JavaScript?">Why Study JavaScript?</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Hello_World">Hello World</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Variables">Variables</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Data_Types">Data Types</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#If_Statement">If Statement</a>
+          </li>
+        </ul>
+      </nav>
+    
+      <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <article>
+            <p>This is a Documentation page dedicated to JS Language</p>
+            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+              Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+            <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects</p>
+          </article>
+        </section>
+        <section class="main-section" id="Why_Study_JavaScript?">
+          <header>Why Study JavaScript?</header>
+          <article>
+            <p>JavaScript is a language coupled with CSS and HTML used on the making of what we know as the Web</p>
+            <ul>
+              <li><strong>JavaScript</strong> - used to make the website interactive</li>
+              <li><strong>CSS</strong> - used to style the webpage</li>
+              <li><strong>HTML</strong> - considered to be the body (structure) of the webpage</li>
+            </ul>
+          </article>
+        </section>
+        <section class="main-section" id="Hello_World">
+          <header>Hello World</header>
+          <article>
+            <p>On the example below we have the example of a simple code in JS</p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }
+              greetMe("World");</code>
+          </article>
+        </section>
+        <section class="main-section" id="Variables">
+          <header>Variables</header>
+          <article>
+            <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+            <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase). </p>
+            <p>Example:</p>
+            <code>var x = 42.</code>
+            <code> x = 42.</code>
+            <code>let x = 42.</code>
+          </article>
+        </section>
+        <section class="main-section" id="Data_Types">
+          <header>Data Types</header>
+          <article>
+            <p>The latest ECMAScript standard defines seven data types:</p>
+            <ul>
+              <li>Boolean. true and false.</li>
+              <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+              <li>undefined. A top-level property whose value is undefined.</li>
+              <li>Number. 42 or 3.14159.</li>
+              <li>String. "Howdy"</li>
+              <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable. </li>
+              <li>Objetct</li>
+            </ul>
+            <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform. </p>
+          </article>
+        </section>
+        <section class="main-section" id="If_Statement">
+          <header>If Statement</header>
+          <article>
+            <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
+            <code>if (condition) { statement_1; } else { statement_2; }</code>
+            <p>condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.</p>
+          </article>
+        </section>
+      </main>
+</body>
+</html>

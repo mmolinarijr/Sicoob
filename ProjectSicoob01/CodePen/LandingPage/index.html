@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <img id="header-img" src="https://i.pinimg.com/originals/fd/a2/19/fda21948a9c5b2132eedd58d40bf656e.png" alt="company_logo">
+            <h1>Online Marketing Agency</h1>
+        </div>
+
+        <nav id="nav-bar">
+             <ol>
+                <li ><a href="#section__product" class="nav-link">Product</a></li>
+                <li ><a href="#section__about" class="nav-link">About</a></li>
+                <li ><a href="#section__contact" class="nav-link">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section_product" id="section__product">
+            <h3>Product</h3>
+            <ul >
+                <li class="li-product">
+                    <img class="img-product" src="https://www.flaticon.com/svg/vstatic/svg/1231/1231223.svg?token=exp=1617913824~hmac=1e94ed8de00c5fe642f758f5eb871710">
+                    <p>Webpage</p>
+                </li>
+
+                <li class="li-product">
+                    <img class="img-product" src="https://www.flaticon.com/premium-icon/icons/svg/1183/1183624.svg">
+                    <p>Webapp</p>
+                </li>
+
+                <li class="li-product">
+                    <img class="img-product" src="https://www.flaticon.com/svg/vstatic/svg/1651/1651707.svg?token=exp=1617912811~hmac=9d034c1fa776f3fdf27cbdd0fd97cf40">
+                    <p>Consulting</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section_about" id="section__about">
+            <h3>About</h3>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/pR2UOSYgXmw?controls=0" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="section_contact" id="section__contact">
+            
+            <div class="container">
+                <form action="#" id="form">
+                    <h3>Contact us</h3>
+
+                    <label class="label" for="name">Name</label>
+                    <input name="name" type=text placeholder="Enter your name" required>
+
+                    <label for="name">E-mail</label>
+                    <input name="email" type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" placeholder="Type your email" name="email" required>
+
+                    </br>
+                    </br>
+
+                    <label for="message">Message</label> </br>
+                    <textarea name="message" cols="30" rows="10" placeholder="Write your email here" required></textarea>
+
+                    </br>
+
+                    <input id="submit" type="submit" value="Send Email">
+                </form>
+            </div>
+            
+            <h3>We are located at:</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d635.1360669053788!2d-104.61067287073578!3d50.4495888526749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x531c1e46f81015c3%3A0x25b72b12a13684cd!2sDowntown%2C%20Regina%2C%20SK%20S4P%202G9%2C%20Canad%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1617839042419!5m2!1spt-BR!2sbr"
+             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+        All rights reserved. Mauricio Molinari. 2021 ©
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
